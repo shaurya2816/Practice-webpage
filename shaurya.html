@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- Bootstrap CSS -->
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	
+	 <link rel="stylesheet" type="text/css" href="shaurya.css">
+	 <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      
+
+      <title>My description</title>
+  </head>
+
+   <body>
+
+   	<header>	
+    	<ul>
+
+    		<li><a href="#intro">Introduction</a></li>
+    	    <li><a href="#education">Education</a></li>
+     		
+     	</ul>	  	
+    
+    <h1 class="about">About Me</h1>
+ 	</header>
+
+ 	<img src="shaur3.jpg" alt="My picture" class="col-sm-4 col-md-3 img-responsive img-circle img-thumbnail" />
+
+    <div id='intro'>
+      	<h2>INTRODUCTION</h2>
+	   		<p> Hello, I am <span><em>Shaurya Agarwal</em></span>.<br>   <!-- this is my name -->
+	   	 	I am <strong>18</strong> years old.<br>
+	    	<a href = "https://www.wikipedia.org/" target = "_blank">This is a link</a> 
+	   		</p>
+	</div>
+
+	<div id = 'education' class="table-responsive">
+		<h2>EDUCATION</h2>
+		<table class="table table-striped table-bordered table-hover">
+    		<thead>
+     		    <tr>
+     		    	<th></th>
+        			<th>Degree</th>
+        			<th>Academic Year</th>
+        			<th>Institution</th>
+        			<th>Result</th>
+      		    </tr>
+    		</thead>
+    		<tbody>
+    			<tr>
+    				<th scope="row">1.</th>
+    				<td>Class X</td>
+      				<td>2016-17</td>
+        			<td>AFGJI</td>
+        			<td>9 CGPA</td>
+    			</tr>
+    			<tr>
+    				<th scope="row">2.</th>
+    				<td>Class XII</td>
+    				<td>2018-19</td>
+        			<td>AFGJI</td>
+        			<td>89%</td>
+    			</tr>
+    			<tr>
+    				<th scope="row">3.</th>
+    				<td>B-TECH</td>
+    				<td>2019-23</td>
+        			<td>SRM Chennai</td>
+        			<td>10 GPA</td>
+    			</tr>
+    		</tbody>
+    	</table>
+    </div>	<br><br>
+    	<form>
+    		<label for = "rate">From 1 to 10 how would you rate my profile?</label><br>
+    		<span>Poor</span>
+    		<input type="range" name="rate" id="rate" min="1" max="10" step="1">
+    		<span>Excellent</span>
+    	</form>
+    	      <br><br>
+    	<form>
+    		<p>How well do you know me?</p>
+
+    		<input type="radio" name="w" value="very well" id="v">
+    		<label for="v">Very well</label>
+    		
+    		<br>
+    		
+    		<input type="radio" name="w" value="well" id="w">
+    		<label for="w">Well</label>
+
+    		<br>
+
+    		<input type="radio" name="w" value="well" id="l">
+    		<label for="l">Little</label>
+    		
+    		<br>
+    		
+    		<input type="radio" name="w" value="well" id="m">
+    		<label for="m">Met only a few times</label>
+    	</form>
+    	<br>
+    	<form>
+    		<label for="know">How well do you know me?</label>
+    		<select id="know" name="know">
+    			<option value="vw">Very Well</option>
+    			<option value="w">Well</option>
+    			<option value="l">Little</option>
+    			<option value="m">Met only a few times</option>
+    		</select>
+    	</form>
+    	<br>
+    	<form>
+    		<label for="city">Which city do you live in?</label>
+    		<input type="text" name="city" id="city" list="c">
+    		<datalist id="c">
+    			<option value="New Delhi"></option>
+    			<option value="Chennai"></option>
+    			<option value="Bangalore"></option>
+    			<option value="Mumbai"></option>
+    			<option value="Bhuj"></option>
+    			<option value="Other"></option>  
+    		</datalist>
+    	</form>
+		<br>
+		<form>
+			<label for="you">Write something about yourself :</label><br>
+			<textarea id="you" name="you" rows="10" cols="80" placeholder="Anything you want"></textarea><br>
+			<input type="submit" name="submit">
+		</form>
+	<footer>
+		<h3>Email ID : shauryagarwal28@gmail.com</h3>
+		<h3>Contact No. : +91-9811849869</h3>
+	</footer>
+
+	   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+   </body>
+</html>
